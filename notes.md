@@ -1,6 +1,6 @@
-Tasks 68-76
+### Tasks 68-76
 
-Lesson 1:
+## Lesson 1:
 
 pwd - tells you the current directory your in
 
@@ -8,10 +8,12 @@ mkdir -v (name of directory) - creates a new directory
 
 mkdir -vp dir2/dir3/dir4 - creates multiple directories at once
 
+# listing repositories
 ls - list the repositories
 
 ls -R - list all of the repositories made
 
+# moving in repositories
 cd dir2 - moves into the repository
 
 cd .. - moves to the parent directory
@@ -22,18 +24,21 @@ cd - moves to the home directory
 
 _________________________________________________________________________________
 
-Lesson 2:
+## Lesson 2:
 
+# creating file
 touch file1.txt - creates a new .txt file names file1
 
 dir - lists the repositories
 
 clear - clears the screen
 
+# displaying message
 echo "hello"  - displays "hello" on the screen
 
 echo "hello" >> hello.txt - appends "hello" to the hello.txt file
 
+# displaying contents of file
 cat hello.txt - view all contents of hello.txt
 
 head -2 hello.txt - displays the first 2 elements in hello.txt
@@ -48,7 +53,7 @@ stat dir1 - displays the details abou the directory dir1
 
 _________________________________________________________________________________
 
-Lesson 3:
+## Lesson 3:
 
 du - displays the disk usage of current directory
 
@@ -87,4 +92,14 @@ ln  dir2/dir3/dir4/hi.txt hello - creates a link and you can now edit "dir2/dir3
 ln -s  dir2/dir3/dir4/hi.txt  softlink - creates a softlink 
 
 # deleting files
-rm -i file2.txt - 
+rm -i file2.txt - removes individual file
+
+rm -rf junk/* 
+rmdir  dir50 - removes empty directory
+
+_________________________________________________________________________________
+
+## Lesson 4:
+
+# basic process commands
+

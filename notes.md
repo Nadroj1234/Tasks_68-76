@@ -1,4 +1,4 @@
-### Tasks 68-76
+# Tasks 68-76
 
 ## Lesson 1:
 
@@ -26,19 +26,19 @@ ________________________________________________________________________________
 
 ## Lesson 2:
 
-# creating file
+### creating file
 touch file1.txt - creates a new .txt file names file1
 
 dir - lists the repositories
 
 clear - clears the screen
 
-# displaying message
+### displaying message
 echo "hello"  - displays "hello" on the screen
 
 echo "hello" >> hello.txt - appends "hello" to the hello.txt file
 
-# displaying contents of file
+### displaying contents of file
 cat hello.txt - view all contents of hello.txt
 
 head -2 hello.txt - displays the first 2 elements in hello.txt
@@ -61,7 +61,7 @@ du -xh ~  - use h switch to output in a human readable format and the x switch t
 
 du --max-depth 3 ~  - du can take a long time so you can specify the max.directory depth 
 
-# copying files
+### copying files
 cp -v hello.txt dir2 - copies the hello.txt file to directory dir2
 
 cp -v hello.txt dir2/file2.txt - This will copy hello.txt into dir2 at the same time, rename it as "file2.txt".
@@ -70,16 +70,16 @@ cp  -vr dir2/*.txt dir2/dir3 - This will copy all files ending with ".txt" from 
 
 cp -vr dir2/dir3  .  - copies the directory named "dir3" to current directory
 
-# displaying file or directory data
+### displaying file or directory data
 md5sum hello.txt - if the file is too large use this instead of "cat"
 
 md5sum dir2/hello.txt - displays the same info as the one above
 
 md5sum hello.txt - displays the same info as the one above
 
-# renaming files
+### renaming files
 mv hello.txt dir2/dir3/dir4/hi.txt - will move file "hello.txt" into directory "dir4" and renames it "hi.txt"
-# When you use cp there exists two copies of a file (similar to copy-paste "ctrl-c" and "ctrl-v") with mv there is one copy (its cut-paste ctrl-x and ctrl-v). unlike (cp,rm) other commands mv don't need "-r" for directories.
+When you use cp there exists two copies of a file (similar to copy-paste "ctrl-c" and "ctrl-v") with mv there is one copy (its cut-paste ctrl-x and ctrl-v). unlike (cp,rm) other commands mv don't need "-r" for directories.
 
 mkdir dir5 - to create a new directory
 
@@ -91,7 +91,7 @@ ln  dir2/dir3/dir4/hi.txt hello - creates a link and you can now edit "dir2/dir3
 
 ln -s  dir2/dir3/dir4/hi.txt  softlink - creates a softlink 
 
-# deleting files
+### deleting files
 rm -i file2.txt - removes individual file
 
 rm -rf junk/* 
@@ -101,5 +101,5 @@ ________________________________________________________________________________
 
 ## Lesson 4:
 
-# basic process commands
+### basic process commands
 

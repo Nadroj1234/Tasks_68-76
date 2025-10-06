@@ -8,12 +8,12 @@ mkdir -v (name of directory) - creates a new directory
 
 mkdir -vp dir2/dir3/dir4 - creates multiple directories at once
 
-# listing repositories
+### listing repositories
 ls - list the repositories
 
 ls -R - list all of the repositories made
 
-# moving in repositories
+### moving in repositories
 cd dir2 - moves into the repository
 
 cd .. - moves to the parent directory

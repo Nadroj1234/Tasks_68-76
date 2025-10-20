@@ -288,3 +288,21 @@ ps -o ppid,cmd 12781 - shows the parent of the primary Bach prompt (the number y
 ---
 
 ## Lesson 10
+
+jobs - shows all background jobs
+
+fg 5 - to bring job 5 to the foreground
+
+press ctrl+z to stop the process
+
+bg 5 to start the process correctly
+
+---
+
+## Lesson 11
+
+seq 1 500000 - prints 1-500000 in the console
+
+( ( kill -STOP 2498 ) ) - creates two more subshells and deletes the current one
+
+( sleep 100 & ( kill -9 3329 )) - kills the subshell
